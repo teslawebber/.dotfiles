@@ -1,35 +1,33 @@
 # dotfiles
- My dot files
-Contains dotfiles for powershell, starship prompt and i3-window-manager alongwith polybar.
-Currently using all i3 tools including the lock and bar.
 
-## Bash Prompt
-To have git prompt in your bash prompt also get the script from https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh otherwise it won't work.
+This repository contains my dotfiles that I use. If you find this after looking at the other dotfiles repository I have, then the difference is that: this one is has the structure that allows me to use GNU Stow to setup my config files for various things by just cloning this repository.  
+The other repository is not abandoned as it will contain all Windows specific things going forward, and also to make it easy to have a clean slate if something goes wrong here.
 
-## Which one do I use
-I prefer to use i3 over any suckless tools. The reason being the easy customisation and instant feedback for those changes. I have added suckless utilities also to have an alternate tool and also see the performance difference that everyone touts suckless for. Which I have to say yes, there is a lower resource usage but I am lazy and don't want to configure dwm and compile it again and again.😫
+## What this contains
 
-## Current Setup
-### Linux
-Window Manager - i3 with i3-gaps
-Terminal - st and alacritty
-application launcher - rofi
-bar - i3bar
-status - i3status
-zsh prompt -zsh
-bash promt - check above
+- Alacritty
+- dunst
+- htop
+- helix
+- i3wm
+- i3status
+- nvim
+- htop
+- rofi
 
-### Windows
-Terminal - Windows Terminal
-Powershell Prompt engine - posh-git
+## What if you want to use these files or the entire repository
 
-## Font
-The first font that I really loved to just type in was Iosevka.
-But it was missing that je ne sais quoi.
-But I found pajlada using the Pragmata Pro font and upon searching for it found that it was paid (yes, I know you can get it in other ways but didn't want it from an unofficial source).
-After a lot of searching I found Pragmasevka that gives me exactly what I wanted.
-Find it here <https://github.com/shytikov/pragmasevka>
-
-## oh-my-zsh plugins
-- use zsh-syntax-highlighting
-- install lsd by using the package manager of your distro and put `alias ls="lsd"` in your .zshrc
+- install GNU stow ( even on macOS using macports or brew) sadly not for windows users
+- clone/fork this repository on your system
+- run these command
+  ```sh
+  cd .dotfiles # enter the cloned directory
+  stow -nvSt ~ * # if you want all packages
+  stow -nvSt ~ <directory name> # if you only want to symlink a specific directory for ex alacritty
+  # -n : simulate the links that will happen
+  # -v : verbose output
+  # -S : for linking
+  # -t : to specify the target directory instead of the default that stow chooses which is the parent of the stow directory; used here to specify the home directory (~) in the above command; you can omit the -t flag and ~
+  stow -vSt ~ <directory name>/* # this time they will symlink
+  ```
+- and you are done!!
