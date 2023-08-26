@@ -1,6 +1,6 @@
 # .tar.** 
 1. helix text editor [x]
-2. neovim
+2. neovim [x]
 3. Emacs 29.1
 
 # .deb pkg
@@ -28,6 +28,8 @@
   - need to press ctrl-r to view the hstr things; doesn't come up by default
 1. picom
 1. acpi (info about acpi devices; for battery notifications using dunst)
+1. flameshot [x] (added custom shortcut in settings where pressing PrintSc ie (which is shown as super+shift+s for some reason) takes a fullscreen screenshot and opens the flameshot gui)
+1. fzf (ctrl-r: search through history, ctrl-t: fuzzy search for folder and sub-directories of the working directory and output the selection to stdout, alt-c: quickly change directories)
 
 # pip install
 1. pylsp with all option
