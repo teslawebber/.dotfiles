@@ -70,7 +70,7 @@ ZSH_THEME="eastwood"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting fzf)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -101,6 +101,8 @@ alias zshconfig="hx ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cc="cd ../"
 
-export HSTR_CONFIG=hicolor            # get more colors
-       setopt histignorespace                # skip cmds w/ leading space from history
-       bindkey -s "\C-r" "\C-a hstr -- \C-j" # bind hstr to Ctrl-r (for Vi mode check doc)
+# export HSTR_CONFIG=hicolor            # get more colors
+       # setopt histignorespace                # skip cmds w/ leading space from history
+       # bindkey -s "\C-r" "\C-a hstr -- \C-j" # bind hstr to Ctrl-r (for Vi mode check doc)
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
