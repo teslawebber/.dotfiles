@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/opt/helix-23.05-x86_64-linux:$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/opt/nvim-linux64/bin:$HOME/opt/helix-23.05-x86_64-linux:$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
