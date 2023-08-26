@@ -111,18 +111,18 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family:  Ubuntu Mono
+    
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
     # family: Hack
-    # family: Ubuntu Mono
+    family: Pragmata Pro Mono
     # family: UbuntuMono Nerd Fo0t
     # family: Monofur Nerd Fon0
     # family: TerminessTTF Nerd Font
     # family: Mononoki Nerd Font
 
     # The `style` can be specified to pick a specific face.
-    style: Regular
+    style: Medium
 
   # Bold font face
   bold:
@@ -130,11 +130,11 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family:  Ubuntu Mono 
+     
     # family: CodeNewRoman Nerd 10n25
     # family: RobotoMono Nerd Font
     # family: Hack
-    # family: Ubuntu Mono
+    family: Pragmata Pro Mono
     # family: UbuntuMono Nerd Fo0t
     # family: Monofur Nerd Fon0
     # family: TerminessTTF Nerd Font
@@ -149,11 +149,11 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family:  Ubuntu Mono
+    
     # family: CodeNewRoman Nerd 10n25
     # family: RobotoMono Nerd Font
     # family: Hack
-    # family: Ubuntu Mono
+    family: Pragmata Pro Mono
     # family: UbuntuMono Nerd Font
     # family: Monofuritalic Nerd Font Mono
     # family: TerminessTTF Nerd Font
@@ -168,11 +168,11 @@ font:
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Ubuntu Mono
+    family: Pragmata Pro Mono
     # family: CodeNewRoman Nerd 10n25
     # family: RobotoMono Nerd Font
     # family: Hack
-    # family: Ubuntu Mono
+    # family: Pragmata Pro Mono
     # family: UbuntuMono Nerd Font
     # family: Monofuritalic Nerd Font Mono
     # family: TerminessTTF Nerd Font
@@ -182,13 +182,13 @@ font:
     style: Bold Italic
 
   # Point size
-  size: 20.0
+  size: 18.0
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
   offset:
     x: 0
-    y: 0
+    y: 1
 
   # Glyph offset determines the locations of the glyphs within their cells with
   # the default being at the bottom. Increasing `x` moves the glyph to the right,
