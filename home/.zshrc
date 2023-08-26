@@ -100,6 +100,7 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="hx ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cc="cd ../"
+alias btop="btop --utf-force" # in use when not nerd font not installed
 
 # export HSTR_CONFIG=hicolor            # get more colors
        # setopt histignorespace                # skip cmds w/ leading space from history
