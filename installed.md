@@ -36,4 +36,10 @@
 
 # Others
 1. D2Coding, Fira Code font, Consolas NF [x], Symbol nerd fonts [x]
-1. Pragmata Pro, Code New Roman Nerd font, Monego with ligatures
+1. Pragmata Pro [x], Code New Roman Nerd font, Monego with ligatures
+1. UbuntuMono Nerd Font Mono
+
+# git installation
+1. zsh-autosuggestion [x]
+1. zsh-syntax-highlighting [x]
+1. powerlevel10k [x]
