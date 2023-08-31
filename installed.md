@@ -8,6 +8,7 @@
 1. Chatterino [x]
 
 # apt manual installation
+1. cheese [x](app to record or take photos using the webcam in laptop; part of the normal ubuntu installation; omitted from minimal install)
 1. git [x]
 1. git-gui [x]
 1. kitty terminal
@@ -31,13 +32,17 @@
 1. flameshot [x] (added custom shortcut in settings where pressing PrintSc ie (which is shown as super+shift+s for some reason) takes a fullscreen screenshot and opens the flameshot gui)
 1. fzf (ctrl-r: search through history, ctrl-t: fuzzy search for folder and sub-directories of the working directory and output the selection to stdout, alt-c: quickly change directories)
 
+# Snap installation
+1. Gitkraken
+
 # pip install
 1. pylsp with all option
 
 # Others
-1. D2Coding, Fira Code font, Consolas NF [x], Symbol nerd fonts [x]
+1. D2Coding, Fira Code font, Consolas NF [x](for chatterino), Symbol nerd fonts
 1. Pragmata Pro [x], Code New Roman Nerd font, Monego with ligatures
-1. UbuntuMono Nerd Font Mono
+1. UbuntuMono Nerd Font Mono [x](for terminal)
+1. MesloLGLDZ Nerd Font Mono [], Cascadia Code [x], Menlo[x](for Visual Studio Code)
 
 # git installation
 1. zsh-autosuggestion [x]
