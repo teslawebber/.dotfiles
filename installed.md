@@ -20,8 +20,8 @@
 1. linux mint development tools
 1. unzip [x]
 1. lighttpd
-1. i3
-1. rofi
+1. i3 [x]
+1. rofi [x]
 1. brightnessctl (using this to check the screen brightness; don't use this as it requires some elevated privileges to change brightness level)
 1. xbacklight (part of xorg; use this to change screen brightness **binded to the keyboard keys for changing brightness**) 
 1. feh (for setting wallpaper)
@@ -42,7 +42,8 @@
 1. D2Coding, Fira Code font, Consolas NF [x](for chatterino), Symbol nerd fonts
 1. Pragmata Pro [x], Code New Roman Nerd font, Monego with ligatures
 1. UbuntuMono Nerd Font Mono [x](for terminal)
-1. MesloLGLDZ Nerd Font Mono [], Cascadia Code [x], Menlo[x](for Visual Studio Code)
+1. MesloLGLDZ Nerd Font Mono [], Cascadia Code [x], Menlo[](for Visual Studio Code)
+1. JetBrains Mono [x]
 
 # git installation
 1. zsh-autosuggestion [x]
