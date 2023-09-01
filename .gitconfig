@@ -1,0 +1,28 @@
+[core]
+	editor = "nvim"
+[user]
+	name = teslawebber
+	email = teslawebber968@gmail.com
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[gui]
+	recentrepo = C:/Users/Samar/Github/Notes
+[guitool "Status"]
+	cmd = git status
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+    # For three way merge
+    cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED

@@ -49,3 +49,4 @@
 1. zsh-autosuggestion [x]
 1. zsh-syntax-highlighting [x]
 1. powerlevel10k [x]
+1. pop-shell []

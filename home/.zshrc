@@ -107,6 +107,7 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="hx ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cc="cd ../"
+alias tmux="tmux -u"
 
 # export HSTR_CONFIG=hicolor            # get more colors
        # setopt histignorespace                # skip cmds w/ leading space from history
