@@ -11,6 +11,8 @@
 - Visual Studio Code[x]
 - Git[x] (remember to select the option to add unix like utilities to path)
 - Gpg4win[x] (added gpg key for windows to github)
+- MinGW Clang LLVM toolchain from [winlibs](https://winlibs.com)[x] (compiler for c and cpp/GNU toolchain)
+- Python version 3.11.5 [x]
 
 # MS Store
 
