@@ -3,6 +3,7 @@
 - git for windows[x] `winget install -e --id Git.Git` (did not ask for customisations; not the prefered way)
 - 7zip[x]
 - emacs[x] (version 29.1 installed)
+- powertoys [x]
 
 # web/manual download
 
