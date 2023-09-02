@@ -1,21 +1,21 @@
 # winget
 
-- git for windows `winget install -e --id Git.Git` (did not ask for customisations; not the prefered way)
-- 7zip
-- emacs (version 29.1 installed)
+- git for windows[x] `winget install -e --id Git.Git` (did not ask for customisations; not the prefered way)
+- 7zip[x]
+- emacs[x] (version 29.1 installed)
 
 # web/manual download
 
-- Firefox
-- Google Chrome
-- Visual Studio Code
-- Git (remember to select the option to add unix like utilities to path)
-- Gpg4win (added gpg key for windows to github)
+- Firefox[x]
+- Google Chrome[x]
+- Visual Studio Code[x]
+- Git[x] (remember to select the option to add unix like utilities to path)
+- Gpg4win[x] (added gpg key for windows to github)
 
 # MS Store
 
-- Powershell
-- Windows Terminal
+- Powershell[x]
+- Windows Terminal[x]
 
 # Ublock Origin
 
