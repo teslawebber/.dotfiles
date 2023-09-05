@@ -9,6 +9,7 @@ winget install --id Microsoft.Powershell # Install powershell and Windows Termin
 winget install --id Microsoft.WindowsTerminal
 choco install helix # Use all choco installations from an administrator shell
 choco install nerd-fonts-codenewroman
+choco install nerd-fonts-BitstreamVeraSansMono
 ```
 # Links to follow to download
 
