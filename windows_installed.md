@@ -19,7 +19,7 @@ choco install nerd-fonts-BitstreamVeraSansMono
 - https://www.gpg4win.org/get-gpg4win.html
 - https://winlibs.com
 - https://www.python.org/downloads/
-- https://chocolatey.org/install  Go to the heading `Install Chocolatey for individual use` and follow instructions
+- https://chocolatey.org/install  Go to the heading `Install Chocolatey for individual use` and follow instructions; requires an administrator shell to work
 
 # Winget installtion
 
