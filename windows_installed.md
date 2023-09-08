@@ -1,5 +1,20 @@
 # Commands and links for installation
 
+# Replaced chocolatey with scoop for package management
+
+- chocolatey needs elevated shell for anything it does
+- dependencies for things
+- uses shims instead of tinkering with path
+
+## Manually setting size of efi partition
+
+- Press Shift-F10 when the installer is at the start screen
+- Type `diskpart`
+- Type `list disk`. Select the drive on which you want to install the OS with `select disk 0/1/2`
+- Type `create partition efi size=500` size is in MiB
+- Type `exit`. A 500 MiB efi partition is created
+- Then select the rest of the disk and it will install
+
 ```sh
 https://git-scm.com/downloads # git for windows
 winget install --id 7zip.7zip # 7zip; not necessary since windows comes with unzip pre-installed
