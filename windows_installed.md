@@ -6,6 +6,35 @@
 - dependencies for things
 - uses shims instead of tinkering with path
 
+# Winget makes me angry
+
+- all the promise that winget provides but doesn't deliver when you need it
+- I wanted to download chrome and firefox and it didn't install correct version of chrome and didn't even install firefox (or crashed and didn't install correctly as it was available as an app to launch upon searching)
+- just go to the source and download the installer for the thing you want to install and stay away till winget truly becomes good
+
+# Installation list
+
+- Git for windows [ ]
+- Visual Studio Code [ ]
+- Pycharm [ ]
+- Python [ ]
+- Winlibs [ ]
+- Powershell [ ]
+- Scoop [ ]
+- Helix [ ]
+- bat [ ]
+- Firefox [ ]
+- Google Chrome [ ]
+- Powertoys [ ]
+- Lenovo Service Bridge [ ]
+- Lenovo System Update [ ]
+- Intel Driver & Support Assistant [ ]
+- Chatterino [ ]
+- WSL [ ]
+- PSReadLine [ ]
+
+# Stuff below is old stuff
+
 ## Manually setting size of efi partition
 
 - Press Shift-F10 when the installer is at the start screen
