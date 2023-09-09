@@ -32,6 +32,7 @@
 - [ ] Chatterino
 - [ ] WSL
 - [ ] PSReadLine
+- [ ] Notepad++
 
 # Stuff below is old stuff
 
