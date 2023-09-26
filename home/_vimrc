@@ -26,7 +26,7 @@ let mapleader = " " " leader key is space
     set guifont=Consolas:h12
     " set guifont=Cascadia_Code:h11
     syntax enable
-    set background=light
+    " set background=light
 
     if has('gui_running')
         set background=light
@@ -139,7 +139,7 @@ let mapleader = " " " leader key is space
         map <space-y> :"+y<CR>
         
         " paste from the system clipboard
-        map <space-p> :"+gP<CR>
+        map <leader>pp :"+gP<CR>
 
         " open netrw
         map <leader>pv :Ex<CR>
