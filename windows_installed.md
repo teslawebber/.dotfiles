@@ -17,10 +17,10 @@
 - [x] Git for windows
 - [x] Visual Studio Code
 - [ ] Pycharm
-- [ ] Python
-- [ ] Winlibs
+- [x] Python
+- [x] Winlibs
 - [x] Powershell
-- [ ] Scoop
+- [x] Scoop
 - [ ] Helix
 - [ ] bat
 - [x] Firefox
@@ -29,9 +29,9 @@
 - [ ] Lenovo Service Bridge
 - [ ] Lenovo System Update
 - [x] Intel Driver & Support Assistant
-- [ ] Chatterino
+- [x] Chatterino
 - [x] WSL
-- [ ] PSReadLine
+- [x] PSReadLine
 - [ ] Sublime Text
 
 # Stuff below is old stuff
