@@ -14,23 +14,23 @@
 
 # Installation list
 
-- [ ] Git for windows
-- [ ] Visual Studio Code
+- [x] Git for windows
+- [x] Visual Studio Code
 - [ ] Pycharm
 - [ ] Python
 - [ ] Winlibs
-- [ ] Powershell
+- [x] Powershell
 - [ ] Scoop
 - [ ] Helix
 - [ ] bat
-- [ ] Firefox
-- [ ] Google Chrome
+- [x] Firefox
+- [x] Google Chrome
 - [ ] Powertoys
 - [ ] Lenovo Service Bridge
 - [ ] Lenovo System Update
-- [ ] Intel Driver & Support Assistant
+- [x] Intel Driver & Support Assistant
 - [ ] Chatterino
-- [ ] WSL
+- [x] WSL
 - [ ] PSReadLine
 - [ ] Sublime Text
 
