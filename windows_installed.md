@@ -18,7 +18,8 @@
 - [x] Visual Studio Code
 - [ ] Pycharm
 - [x] Python
-- [x] Winlibs
+- [x] Winlibs: without LLVM/Clang/LLD/LLDB
+- [x] LLVM: without LLDB
 - [x] Powershell
 - [x] Scoop
 - [ ] Helix
