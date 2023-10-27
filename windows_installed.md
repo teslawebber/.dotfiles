@@ -22,18 +22,20 @@
 - [x] LLVM: without LLDB
 - [x] Powershell
 - [x] Scoop
-- [ ] Helix
+- [x] Helix
 - [ ] bat
 - [x] Firefox
 - [x] Google Chrome
-- [ ] Powertoys
+- [x] Powertoys
 - [ ] Lenovo Service Bridge
 - [ ] Lenovo System Update
 - [x] Intel Driver & Support Assistant
 - [x] Chatterino
 - [x] WSL
 - [x] PSReadLine
-- [ ] Sublime Text
+- [x] go
+- [x] rust
+- [x] Visual Studio
 
 # Stuff below is old stuff
 
