@@ -1,4 +1,4 @@
-theme = "solarized_dark"
+theme = "cyan_light"
 
 [editor]
 mouse = true
@@ -6,7 +6,6 @@ scrolloff = 5
 auto-completion = true
 completion-trigger-len = 2
 bufferline = "never"
-gutters = ["diff", "diagnostics", "line-numbers", "spacer"]
 
 [editor.statusline]
 left = ["mode", "spinner", "version-control"]
@@ -24,3 +23,10 @@ hidden = false
 
 [editor.lsp]
 auto-signature-help = true
+
+[editor.soft-wrap]
+enable = true
+wrap-indicator = ""
+
+[keys.normal]
+";" = "command_mode"
